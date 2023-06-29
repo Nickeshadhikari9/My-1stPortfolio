@@ -1,0 +1,380 @@
+body{
+    
+    background-color: rgb(37, 37, 37);
+    margin-top: 2%;
+    margin-left: 0;
+}
+.name{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 4%;
+    margin-top: -1%;
+   
+}
+.iname{
+    color: rgb(145, 61, 223);
+}
+#home a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    transition: 0.2s ease;
+    font-weight: bold;
+}
+#home a:hover{
+    color: rgb(145, 61, 223);
+}
+ul{
+    text-align: right;
+    margin-right: 4%;
+    margin-top: -4.5%;
+    font-size:16px;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+    padding: 25px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    
+}
+.myimage{
+   display: flexbox;
+   width: 49%;
+   margin-top: -3%; 
+   margin-left: 50%;
+
+}
+h1{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    display:flexbox;
+    font-size: 80px;
+    margin-left: 10%;
+    margin-top: -40%;
+}
+.word{
+    color: rgb(145, 61, 223);
+    font-family: 'Patrick Hand', cursive;
+    display:flex;
+    margin-bottom: -4%;
+    font-size: 100px;
+}
+.wordcolor{
+    color: rgb(145, 61, 223);
+}
+#about{
+    background-color: rgb(29, 28, 28);
+    margin-top: 10%;
+    padding-top: 80px;
+    margin-left: 0;
+    font-family: 'Teko', sans-serif;
+}
+#about .container{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    height: 460px;
+}
+#about .aboutimg{
+    width: 35%;
+    margin-top: -5%;
+    border: 10px solid rgba(77, 76, 76, 0.378);
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+#about .aboutimg:hover{
+    transform:scale(1.1) ;
+}
+#about .details{
+  
+    margin-left: 42%;
+    margin-top: -45%;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+#about h2{
+    color: rgb(145, 61, 223);
+    font-size: 50px;
+    margin-top: -7%;
+}
+#about h3{
+    color: white;
+    font-size: 30px;
+}
+#about h5{
+    color: white;
+    font-size: 20px;
+}
+#about h5 span{
+    color: rgb(145, 61, 223);
+}
+#about p{
+    color: rgb(128, 128, 130);
+    line-height: 1.5;
+}
+#about .button{
+    margin-left: 43.5%;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(119, 117, 117);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#about .button:hover{
+    background-color:rgb(145, 61, 223);
+    border-color: rgb(29, 28, 28);
+}
+#projects{
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+}
+#projects .container{
+    height: 680px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+#projects .container h2{
+    color: rgb(145, 61, 223);
+    font-size: 50px;
+    margin-top: 2%;
+    text-align: center;
+   
+}
+#projects .images{
+    
+    margin-top: -2%;
+    margin-left: -20%;
+    margin-right: 70%;
+  display: flexbox;
+    
+}
+#projects img{
+    width: 90%;
+    border: 1.5px solid rgb(145, 61, 223);
+    border-radius: 20px;
+   
+    
+    transition: 0.5s ease;
+    margin-bottom:25px;
+    
+    }
+    #projects img:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px rgb(145, 61, 223);
+    }
+    #projects .discription{
+        display: flexbox;
+        
+        margin-top: -95%;
+        margin-left: 36%;
+        width:650px;
+    }
+    #projects .discription h5{
+        color: white;
+        font-size: 20px;
+    }
+    #projects .discription span{
+        color: rgb(128, 128, 130);
+        line-height: 1.5;
+    }
+    #contact .container{
+        height: 540px;
+        margin-left: 13%;
+        margin-right: 13%;
+        
+    }
+    #contact .container h2{
+        color: rgb(145, 61, 223);
+        font-size: 50px;
+        margin-top: -2%;
+        text-align: center;
+    }
+    #contact .container p{
+        color: rgb(128, 128, 130);
+        line-height: 1.4;
+        text-align: center;
+        margin-top: -2%;
+    }
+    #contact table{
+        height: 400px;
+    }
+    #contact .icon{
+        font-size: 35px;
+        vertical-align: middle;
+       
+    }
+    #contact ul{
+        margin-top: 10%;
+    }
+    #contact li{
+        display:flex;
+    }
+    #contact .iconname{
+        color:white;
+        font-size: 25px;
+        margin-left: 5%;
+        margin-top: 2%;
+        
+    }
+    #contact .detail{
+        color:rgb(128, 128, 130);
+        display: flex;
+        text-align: left;
+        margin-top: 13%;
+        margin-left: -20%;
+    }
+    #contact .detail-add{
+        color: rgb(128, 128, 130);
+        display: flex;
+        text-align: left;
+        margin-top: 13%;
+        margin-left: -27%;
+    }
+    #contact .detail a{
+        color:rgb(128, 128, 130);
+        text-decoration: none;
+    }
+    #contact .detail a:hover{
+        color:rgb(145, 61, 223);
+        text-decoration: underline;
+    }
+    #contact .mydetails{
+        height: 390px;
+        width: 430px;
+        display: flexbox;
+        margin-left: -10%;
+        
+    }
+   
+    #contact .sendmessage{
+        height: 300px;
+        width: 360px;
+        display: flexbox;
+        margin-top: -56.5%;
+        margin-left: 51%;
+        background-color: rgba(128, 128, 130, 0.204);
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(128, 128, 130, 0.204);
+    }
+    #contact .sendmessage li{
+        margin-top: -5%;
+        margin-left: -7%;
+    }
+    #contact .sendmessage li input{
+        background-color:rgba(128, 128, 130, 0.451);
+        border: none;
+        height: 35px;
+        width: 250px;
+        margin-top: 2%;
+        padding: 0px 10px;
+        color: white;
+        border-radius: 5px;
+        
+    }
+    #contact .sendmessage li input::placeholder{
+        color: white;
+        font-size: 15px;
+    }
+    #contact .sendmessage li input:focus{
+        outline: 2px solid rgb(145, 61, 223);
+        color:white;
+        font-size: 15px;
+      
+    }
+    #contact .sendmessage li textarea{
+        background-color:rgba(128, 128, 130, 0.451);
+        border: none;
+        margin-top: 2%;
+        max-width: 249px;
+        min-width: 249px;
+        min-height: 26px;
+        max-height:21px;
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+    }
+    #contact .sendmessage li textarea::placeholder{
+        color: white;
+        font-size: 15px;
+        
+
+    }
+    #contact .sendmessage li textarea:focus{
+        outline: 2px solid rgb(145, 61, 223);
+        font-size: 15px;
+        color: white;
+        
+    }
+    #contact .submit{
+        background-color:rgba(128, 128, 130, 0.451);
+        display: flex;
+        border: none;
+        height: 35px;
+        width: 140px;
+        margin-top: 2%;
+        padding: 0px 10px;
+        color: white;
+        border-radius: 5px;
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    #contact .submit:hover{
+        background-color: rgb(145, 61, 223);
+        cursor: pointer;
+    }
+    #contact h5{
+        text-align: center;
+        margin-top: 12%;
+    }
+    #contact .socialmedia .socialmediaicon{
+        font-size: 35px;
+        display: flexbox;
+        padding: 0px 20px;
+        color: white;
+    }
+    #contact .socialmedia .socialmediaicon:hover{
+        color:rgb(145, 61, 223);
+    }
+    #contact .socialicon{
+        margin-left: 35%;
+        margin-top: -2%;
+        margin-bottom: 5%;
+    }
+    #contact .copyright a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    #contact .copyright a:hover{
+        text-decoration: underline;
+        color:rgb(145, 61, 223);
+    }
+   .uparrow{
+    display: inline-block;
+    margin-top: -15%;
+    justify-content: left;
+    margin-left: 94%;
+    margin-right: 2%;
+    background-color: rgba(255, 255, 255, 0.856); 
+    padding-left: 9px;
+    padding-right:7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   .uparrowicon{
+    color:rgb(145, 61, 223);
+   }
+   .uparrowicon:hover{
+    color:white;
+   }
+   .uparrow:hover{
+    background-color:rgb(145, 61, 223);
+   }
+    
+   
