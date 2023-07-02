@@ -1,7 +1,7 @@
 body{
     
     background-color: rgb(37, 37, 37);
-    margin-top: 2%;
+    margin-top: 0;
     margin-left: 0;
 }
 .name{
@@ -9,7 +9,7 @@ body{
     font-size: 20px;
     color: white;
     margin-left: 4%;
-    margin-top: -1%;
+    display: inline-block;
    
 }
 .iname{
@@ -24,7 +24,7 @@ body{
 #home a:hover{
     color: rgb(145, 61, 223);
 }
-ul{
+#home ul{
     text-align: right;
     margin-right: 4%;
     margin-top: -4.5%;
